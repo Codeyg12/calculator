@@ -1,0 +1,43 @@
+.container {
+    max-width: 400px;
+    margin: 10vh auto 0 auto;
+    box-shadow: 10px 5px 10px 5px rgb(60, 58, 66);
+}
+
+#display {
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    padding: 20px 10px;
+    font-size: 22px;
+}
+
+.buttons {
+    display: grid;
+    border: 0px 0px 1px 1px solid gray;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.btn {
+    border: .5px solid black;
+    line-height: 100px;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#total {
+    background-color: rgb(69, 91, 235);
+    color: black;
+}
+
+#clear {
+    background-color: red;
+    color: black;
+}
+
+.btn:hover {
+    background-color: rgb(65, 59, 59);
+    color: rgb(222, 250, 9);
+    transition: 0.2s ease-in;
+}
